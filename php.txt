@@ -9,5 +9,7 @@
     echo "<p><strong> sexo:".$sexo."</strong></p>";
     echo "<p><strong> senha:".$_GET['senha']."</strong></p>";
     echo "<p><strong> sexo:".$_REQUEST['nome']."</strong></p>";
-
+// upload
+    var_dump($_FILES['arq']); 
+    
 ?>
